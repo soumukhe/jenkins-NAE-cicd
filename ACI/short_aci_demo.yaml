@@ -11,7 +11,7 @@
   vars:
     host:       "dmzapic8"
     tenant:      "sm-Jenkins-Ansible"
-    vrfi_name:   "SMVRF1"
+    vrf_name:    "SMVRF1"
     bd:          "newBD8"
     username:   "ansible"
     private_key: "/myJenkinsData/Ansible/APIC/certs/ansible.key"
