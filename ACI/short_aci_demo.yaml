@@ -27,8 +27,8 @@
 
           
     - name: ensure tenant exists
-      aci_tenant:
-       host: "{{ host }}"
+      cisco.aci.aci_tenant:
+        host: "{{ host }}"
         username: "{{ username }}"
         private_key:  "{{ private_key }}"
         certificate_name: "{{ certificate_name }}"
