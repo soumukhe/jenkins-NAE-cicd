@@ -15,7 +15,7 @@
     bd:          "newBD8"
     username:   "ansible"
     private_key: "/myJenkinsData/Ansible/APIC/certs/ansible.key"
-    certificate_name: "certificate_name" 
+    certificate_name: "ansible" 
 
 
 
