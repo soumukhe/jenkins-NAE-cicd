@@ -12,7 +12,7 @@ pipeline {
    stage('Git code checkout and dependencies install'){
      steps {
        dir('dev'){
-         ansiColor('xterm'){
+         ansiColor('xterm')
         
        }
        dir('dev/ACI'){
