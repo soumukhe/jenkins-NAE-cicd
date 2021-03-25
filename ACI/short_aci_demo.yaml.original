@@ -28,7 +28,7 @@
         bd: "newBD8"
         state: present
         use_proxy: no
-        filename: 'config.json'
+        output_path: 'config.json'
       delegate_to: localhost
 
 
@@ -45,7 +45,7 @@
         mask: "24"
         state: present
         use_proxy: no
-        filename: 'config.json'
+        output_path: 'config.json'
       delegate_to: localhost
 
 
