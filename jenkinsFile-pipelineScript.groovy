@@ -34,7 +34,7 @@ pipeline {
                      )])
                  ansiblePlaybook(
                      playbook: './short_aci_demo.yaml',
-                     inventory: './inventory',
+                     inventory: './hosts',
                      extras: '--check -vvv',
                      colorized: true)
                     }
@@ -49,7 +49,7 @@ pipeline {
              ansiColor('xterm') {
                  ansiblePlaybook(
                      playbook: './nae_pcv.yaml',
-                     inventory: './inventory',
+                     inventory: './hosts',
                      extras: '-vvv',
                      colorized: true)
                     }
@@ -64,7 +64,7 @@ pipeline {
              ansiColor('xterm') {
                  ansiblePlaybook(
                      playbook: './short_aci_demo.yaml',
-                     inventory: './inventory',
+                     inventory: './hosts',
                      extras: '-vvv',
                      colorized: true) 
                     }
