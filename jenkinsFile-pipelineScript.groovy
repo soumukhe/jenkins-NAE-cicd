@@ -12,8 +12,9 @@ pipeline {
    stage('Git code checkout and dependencies install'){
      steps {
        dir('dev'){
-         ansiColor('xterm')
-        
+         ansiColor('xterm'){
+           git branch: 'master', url: 'https://github.com/soumukhe/jenkins-NAE-cicd-.git'
+         }
        }
        dir('dev/ACI'){
            sh 'ansible-galaxy collection install -r galaxy_requirements.txt'
