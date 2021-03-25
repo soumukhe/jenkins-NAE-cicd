@@ -4,6 +4,8 @@
 
 - name: Add a BD with Subnet to tenant
   hosts: 'dmzapic8'
+  collections: 
+    - cisco.aci
   gather_facts: no
   connection: local
 
