@@ -8,7 +8,7 @@
   gather_facts: no
   vars:
     nae_login: &nae_login
-        host: https://173.37.213.83/nae/login
+        host: https://173.37.213.83
         username: admin
         password: soumu101  
     validate_certs: False
