@@ -19,7 +19,7 @@
         <<: *nae_login
         ag_name: "DMZ-RCDN-Site1"
         name: Jenkins
-        state: present
+        state: verify
         verify: true
         file: config.json
 
