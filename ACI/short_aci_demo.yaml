@@ -76,7 +76,7 @@
         validate_certs: no
         tenant: "{{ tenant }}"
         bd: "{{ bd }}"
-        gateway: "10.100.1.1"
+        gateway: "10.10.10.1"
         mask: "24"
         state: present
         use_proxy: no
