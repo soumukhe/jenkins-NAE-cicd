@@ -9,7 +9,7 @@
   gather_facts: no
   connection: local
   vars:
-    host:       "dmzapic8"
+    host:       "dmzapic9"
     tenant:      "sm-Jenkins-Ansible"
     vrf_name:    "SMVRF1"
     bd:          "newBD9"
