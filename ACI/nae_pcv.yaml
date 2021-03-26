@@ -11,7 +11,7 @@
         host: 10.0.7.11
         username: admin
         password: soumu101  
-        PreChangeAnalysisName: Jenkins1
+    PreChangeAnalysisName: Jenkins1
     validate_certs: False
   
   tasks:
