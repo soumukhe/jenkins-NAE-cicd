@@ -16,6 +16,7 @@
     username:   "ansible"
     private_key: "/myJenkinsData/Ansible/APIC/certs/ansible.key"
     certificate_name: "ansible" 
+    gateway: "10.10.100.1"
 
 
 
@@ -76,7 +77,7 @@
         validate_certs: no
         tenant: "{{ tenant }}"
         bd: "{{ bd }}"
-        gateway: "10.10.10.1"
+        gateway: "{{ gateway }}"
         mask: "24"
         state: present
         use_proxy: no
