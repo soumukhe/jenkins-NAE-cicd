@@ -8,19 +8,16 @@
   gather_facts: no
   vars:
     nae_login: &nae_login
-        #host: 10.0.7.11
+        host: 10.0.7.11
         username: admin
-        #password: soumu101  
+        password: soumu101  
     PreChangeAnalysisName: Jenkins3_27-1
     validate_certs: False
   
   tasks:
     - name: Create a pre-change analysis
       cisco.nae.nae_prechange:
-        #<<: *nae_login
-        host:  "{{ host }}"
-        username: "{{ username }}"
-        password: "{{ password }}"#
+        <<: *nae_login
         ag_name: "DMZ-RCDN-Site1"
         name: "{{ PreChangeAnalysisName }}"
         state: present
