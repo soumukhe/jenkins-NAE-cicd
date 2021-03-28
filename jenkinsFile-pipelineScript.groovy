@@ -8,6 +8,11 @@
 pipeline {
  agent any
  
+ environment {
+   def host = "${params.host}"
+   def password = "${params.password}"
+  }
+ 
  stages {
    stage('Git code checkout and dependencies install'){
      steps {
