@@ -7,16 +7,6 @@
 
 pipeline {
  agent any
-
- parameters {
-  string(name: host, defaultValue: '10.0.7.11')
-  string(name: password, defaultValue: 'soumu101')
- }
- 
- environment {
-   def host = "${params.host}"
-   def password = "${params.password}"
-  }
  
  stages {
    stage('Git code checkout and dependencies install'){
