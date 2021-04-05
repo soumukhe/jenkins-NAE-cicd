@@ -16,7 +16,7 @@
     username:   "ansible"
     private_key: "/myJenkinsData/Ansible/APIC/certs/ansible.key"
     certificate_name: "ansible" 
-    gateway: "10.10.10.1"
+    gateway: "10.10.100.1"
 
 
 
