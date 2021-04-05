@@ -11,7 +11,7 @@
         host: 10.0.7.11           # Make sure to make the GIT Repo that you use a private Repo.  Currently,  NAE does not support certificates, so we have to hard code password
         username: ansible         #  This will get addressed in the new release of NAE with full integration with ND
         password: ansible101      #  Also,  in Jenkins, you need to create credentials for git for private repo (for public repo you don't need password)
-    PreChangeAnalysisName: Jenkins4_5_1
+    PreChangeAnalysisName: Jenkins4_5_2
     validate_certs: False
   
   tasks:
