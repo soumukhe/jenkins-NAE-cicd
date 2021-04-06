@@ -12,11 +12,11 @@
     host:       "dmzapic8"
     tenant:      "sm-Jenkins-Ansible"
     vrf_name:    "SMVRF1"
-    bd:          "newBD2"
+    bd:          "newBD3"
     username:   "ansible"
     private_key: "/myJenkinsData/Ansible/APIC/certs/ansible.key"
     certificate_name: "ansible" 
-    gateway: "10.10.101.1"
+    gateway: "10.10.10.1"
 
 
 
