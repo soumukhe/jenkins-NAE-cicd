@@ -9,8 +9,8 @@
   vars:
     nae_login: &nae_login
         host: 10.0.7.11/login           # Make sure to make the GIT Repo that you use a private Repo.  Currently,  NAE does not support certificates, so we have to hard code password
-        username: admin         #  This will get addressed in the new release of NAE with full integration with ND
-        password: N0Peek1ng1@!      #  Also,  in Jenkins, you need to create credentials for git for private repo (for public repo you don't need password)
+        username: soumukhe         #  This will get addressed in the new release of NAE with full integration with ND
+        password: soumu101      #  Also,  in Jenkins, you need to create credentials for git for private repo (for public repo you don't need password)
     PreChangeAnalysisName: Jenkins4_13_3
     validate_certs: False
   
